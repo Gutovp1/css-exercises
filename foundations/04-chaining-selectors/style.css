@@ -1,0 +1,13 @@
+.avatar{
+    /* shared properties */
+}
+
+.avatar.proportioned{
+    width: 300px;
+    image-rendering: auto;
+}
+
+.avatar.distorted{
+    width: 200px;
+    height: 400px;
+}
