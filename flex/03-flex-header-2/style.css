@@ -12,6 +12,11 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  /*Changes come below*/
+  display: flex;
+  align-items: center;
+  padding: 8px;
+
 }
 
 .profile-image {
@@ -20,6 +25,8 @@ body {
   border-radius: 50%;
   width: 48px;
   height:  48px;
+  /*changes come below*/
+  margin-left: 16px;
 }
 
 .logo {
@@ -35,6 +42,8 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  /*Changes come below*/
+  margin-left: auto;
 }
 
 a {
@@ -45,4 +54,13 @@ a {
 
 ul {
   list-style-type: none;
+  /*Changes come below*/
+  display: flex;
+  gap: 16px;
+  margin-left: 16px;
+  padding: 0;
 }
+
+/*Learning: use more "justify-content: 
+space-between" and "gap" properties to avoid 
+adding margin/padding values in each element. Nested containers can be useful here*/
