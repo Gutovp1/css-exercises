@@ -9,7 +9,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free lol */
+  /* I'll give you this one for free lol*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,6 +20,17 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  /*Changes come below*/
+  display: flex;
+  padding: 15px;
+  gap: 15px;
+}
+
+/*New class selector*/
+.container1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
 }
 
 .icon {
@@ -33,6 +44,22 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /*Changes come below*/
+  flex: 0 0 auto;
+  margin-right: auto;
+  
+}
+
+.header {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/*New class selector*/
+.text {
+  display: flex;
+  justify-content: center;
+  font-size: 15px ;
 }
 
 .close-button {
@@ -46,6 +73,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  /*Changes come below*/
+  flex: 0 0 auto;
+  margin-left: auto;
 }
 
 button {
